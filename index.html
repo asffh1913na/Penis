@@ -1,0 +1,125 @@
+<html>
+
+<link rel="shortcut icon" type="image/png" href=""/>
+
+<head>
+<title>penis</title>
+<!-- Facebook Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="NGR" />
+<meta property="og:description" content="#RIU" />
+<meta property="og:url" content="http://swat.party/" />
+<meta property="og:image" content="" />
+
+<link rel="SHORTCUT ICON" href="img/favicon.png" type="Logo" />
+<link rel="ICON" href="img/favicon.png" type="Logo" /> 
+<link rel="shortcut icon" type="image/png" href=""/>
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://wwww.ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.html"></script>
+<script src="glitch.jquery.html"></script>
+<script src="http://www.youtube.com/iframe_api"></script>
+<style>
+
+    display: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<img src='https://i.pinimg.com/originals/df/a6/5b/dfa65baad7f63329064bb95881d34299.gif' id='myVideo'/>
+
+<div id="screen">
+ <font size="5">NGR</a></font>
+<hr>
+<a href="https://t.me/unmon1" target="_blank">unmon(swatter)</a><br>
+<a href="http://t.me/ic3tips/"target="_blank">rev</a><br>
+<a href="http://swat.party/"target="_blank">unsec</a><br>
+<a href="https://t.me/kkkkkkkkkkq" target="_blank" >kal</a><br>
+<a href="http://t.me/livuya" target="_blank" >liv</a><br>
+<a href="" target="_blank" >penis</a><br>
+<hr>
+<div class="music-toggle"><a onClick="togglePlay()" id="toggle" data-text-swap="Music on">Music off</a></div>
+<audio id="music" loop="loop" src="audio/Music.mp3"></audio>
+</div>
+
+
+</div>
+
+<script>
+
+
+
+var music = document.getElementById("music");
+var isPlaying = false;
+music.volume = 0.4;
+function togglePlay() {
+  if (isPlaying) {
+    music.pause()
+  } else {
+    music.play();
+  }
+};
+music.onplaying = function() {
+  isPlaying = true;
+  document.getElementById("music-animation").classList.add('on')
+};
+music.onpause = function() {
+  isPlaying = false;
+  document.getElementById("music-animation").classList.remove('on')
+};
+
+var button = document.getElementById("toggle");
+button.addEventListener('click', function() {
+  if (button.getAttribute("data-text-swap") == button.innerHTML) {
+    button.innerHTML = button.getAttribute("data-text-original");
+  } else {
+    button.setAttribute("data-text-original", button.innerHTML);
+    button.innerHTML = button.getAttribute("data-text-swap");
+  }
+}, false);
+
+</script>
+
+<style>
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+</style>
+
+</body>
+
+</html>
